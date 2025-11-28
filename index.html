@@ -88,12 +88,15 @@
             background-color: #ff6e40 !important; /* Amber Accent */
             color: #1f2937 !important; /* Dark text on button */
             transition: background-color 0.3s;
+            padding: 12px 24px !important;
+            font-size: 14px !important;
+            border-radius: 6px !important;
         }
         .sib-form-block__button:hover {
             background-color: #ff9d77 !important;
         }
         .sib-form-block__button-with-loader {
-            width: 100%;
+            width: auto !important;
             text-align: center;
         }
 
@@ -211,7 +214,7 @@
                       </div>
                     </div>
 
-                    <input type="text" name="email_address_check" value="" class="input--hidden">
+                    <input type="text" name="email_address_check" value="" class="input--hidden" style="display:none;">
                     <input type="hidden" name="locale" value="en">
                   </form>
                 </div>
