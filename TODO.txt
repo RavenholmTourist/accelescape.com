@@ -1,0 +1,5 @@
+- Remove header subline under title
+- Replace purple heading text with "What Have You Done? Run!"
+- Update body blurb text per user request
+- Update form headings; center and color
+- Remove helper text under input
